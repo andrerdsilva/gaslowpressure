@@ -3,10 +3,16 @@ import dash_html_components as html
 import dash_core_components as dcc
 import plotly.graph_objects as go
 import numpy as np
+from flask import Flask
+import os
+
+server = Flask(__name__)
+server.secret_key = os.environ.get('secret_key', 'secret')
+app.config.supress_callback_exceptions = True
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, server = server, external_stylesheets=external_stylesheets)
 app.layout = html.Div([
     
     #html.H1(children='Dimensionamento de redes de gás de baixa pressão'),
@@ -331,10 +337,4 @@ def velocidade(aparelhos,material,tipogas,FP,PRGN,PRGLP):
 
         return(fig)
 
-
-    
-
-    
-if __name__ == '__main__':
-    app.run_server(debug=True)
 
