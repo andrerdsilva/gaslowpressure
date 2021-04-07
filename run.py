@@ -184,7 +184,7 @@ def perda_carga(aparelhos,material,tipogas,FP,PRGN,PRGLP):
                 name='10% da pressão de operação',
                 line = dict(color='black', width=4, dash='dash')))
 
-        fig.update_xaxes(title_text='Comprimento equivalente (m)',
+        fig.update_xaxes(title_text='Comprimento total (m) = Comprimento real (m) + Comprimento equivalente (m)',
                          dtick=1.0,
                          range=[0, 20])
         fig.update_yaxes(title_text='Perda de carga (%)',
@@ -206,7 +206,7 @@ def perda_carga(aparelhos,material,tipogas,FP,PRGN,PRGLP):
                 name='10% da pressão de operação',
                 line = dict(color='black', width=4, dash='dash')))
 
-        fig.update_xaxes(title_text='Comprimento equivalente (m)',
+        fig.update_xaxes(title_text='Comprimento total (m) = Comprimento real (m) + Comprimento equivalente (m)',
                          dtick=1.0,
                          range=[0, 20])
         fig.update_yaxes(title_text='Perda de carga (%)',
