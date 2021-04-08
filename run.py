@@ -8,7 +8,7 @@ import os
 
 server = Flask(__name__)
 server.secret_key = os.environ.get('secret_key', 'secret')
-app.config.supress_callback_exceptions = True
+#app.config.supress_callback_exceptions = True
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
