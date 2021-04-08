@@ -13,6 +13,7 @@ server.secret_key = os.environ.get('secret_key', 'secret')
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, server = server, external_stylesheets=external_stylesheets)
+app.title = 'Dimensionamento de redes de gás de baixa pressão'
 app.layout = html.Div([
     
     #html.H1(children='Dimensionamento de redes de gás de baixa pressão'),
