@@ -43,7 +43,7 @@ app.layout = html.Div([
             {'label': '2 x Aquecedor de passagem 35 L/min', 'value': 2*45500},
             {'label': '2 x Aquecedor de passagem 42 L/min', 'value': 2*59856},
             {'label': '1 x Churrasqueira de bancada com 2 queimadores', 'value': 4500},
-            {'label': '1 x Fogão industrial NFFI 430-2 - Marca Venax', 'value': 18486.67}
+            {'label': '1 x Fogão industrial 4 bocas com forno - Modelo NFFI 430-2 - Marca Venax', 'value': 18486.67}
             
             
         ],
