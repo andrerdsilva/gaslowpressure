@@ -32,6 +32,7 @@ app.layout = html.Div([
             {'label': '2 x Fogão 6 bocas com forno', 'value': 2*13390},
             {'label': '1 x Aquecedor de passagem 15 L/min', 'value': 22000},
             {'label': '1 x Aquecedor de passagem 18 L/min', 'value': 26500},
+            {'label': '1 x Aquecedor de passagem 21 L/min', 'value': 29000},
             {'label': '1 x Aquecedor de passagem 25 L/min', 'value': 36000},
             {'label': '1 x Aquecedor de passagem 30 L/min', 'value': 45500},
             {'label': '1 x Aquecedor de passagem 35 L/min', 'value': 49000},
