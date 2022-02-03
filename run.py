@@ -49,7 +49,7 @@ app.layout = html.Div([
             {'label': '1 x Fogão industrial 4 bocas com forno - Modelo NFFI 430-2 - Marca Venax', 'value': 18486.67},
             {'label': '1 x Restaurante do Edifício Eurogarden - Potência 100.000 kcal/h', 'value': 100000},
             {'label': '2 x Restaurantes do Edifício Eurogarden - Potência 200.000 kcal/h', 'value': 200000},
-            {'label': '1 x Restaurante do Edifício Eurogarden - Potência 50.000 kcal/h', 'value': 500000},
+            {'label': '1 x Restaurante do Edifício Eurogarden - Potência 50.000 kcal/h', 'value': 50000},
             {'label': '2 x Restaurantes do Edifício Eurogarden - Potência 100.000 kcal/h', 'value': 100000}
             
         ],
